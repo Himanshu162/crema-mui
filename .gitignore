@@ -23,3 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
+/.idea/.gitignore
+/.idea/crema-dev-mui.iml
+/.idea/modules.xml
+/.idea/prettier.xml
+/.idea/dictionaries/yogi0.xml
+/.idea/jsLinters/eslint.xml

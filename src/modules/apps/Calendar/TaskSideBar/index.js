@@ -12,7 +12,9 @@ import SidebarPlaceholder from '@crema/components/AppSkeleton/SidebarListSkeleto
 import AddIcon from '@mui/icons-material/Add';
 import {Zoom} from '@mui/material';
 import {styled} from '@mui/material/styles';
-import {FilterItem, TaskLabelItem} from '@crema/modules/apps/Calendar';
+import TaskLabelItem from './LabelItem';
+import FilterItem from './FilterItem';
+
 import {
   useCalendarActionsContext,
   useCalendarContext,

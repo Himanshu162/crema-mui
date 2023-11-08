@@ -1,3 +1,3 @@
-import {PortfolioDetail} from '@crema/modules/extraPages/Portfolio';
+import PortfolioDetail from './PortfolioDetail';
 
 export default PortfolioDetail;

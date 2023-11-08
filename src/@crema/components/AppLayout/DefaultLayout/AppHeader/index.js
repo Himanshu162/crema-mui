@@ -16,6 +16,7 @@ import AppLogo from '../../components/AppLogo';
 import PropTypes from 'prop-types';
 import AppLngSwitcher from '../../../AppLngSwitcher';
 import AppSearchBar from '../../../AppSearchBar';
+import {allowMultiLanguage} from '../../../../constants/AppConst';
 
 const AppHeader = ({toggleNavCollapsed}) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -69,14 +70,15 @@ const AppHeader = ({toggleNavCollapsed}) => {
           </IconButton>
         </Hidden>
         <AppLogo />
-        <AppSearchBar iconPosition='right' placeholder='Search…' />
         <Box
           sx={{
             flexGrow: 1,
           }}
-        />
-        <AppLngSwitcher iconOnly={true} tooltipPosition='bottom' />
-
+        />{' '}
+        <AppSearchBar iconPosition='right' placeholder='Search…' />
+        {allowMultiLanguage && (
+          <AppLngSwitcher iconOnly={true} tooltipPosition='bottom' />
+        )}
         <Box sx={{ml: 4}}>
           <Hidden smDown>
             <Box

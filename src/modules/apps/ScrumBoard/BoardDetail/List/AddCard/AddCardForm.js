@@ -14,14 +14,13 @@ import PropTypes from 'prop-types';
 import {Autocomplete} from '@mui/lab';
 import AppTextField from '@crema/components/AppFormComponents/AppTextField';
 import AppScrollbar from '@crema/components/AppScrollbar';
-import {
-  CardAttachments,
-  CardCheckedList,
-  CardComments,
-} from '@crema/modules/apps/ScrumBoard';
+
 import {useScrumContext} from '../../../../context/ScrumContextProvider';
 import {DatePicker} from '@mui/x-date-pickers';
 import {generateRandomUniqueNumber} from '@crema/helpers/Common';
+import CardAttachments from './CardAttachments';
+import CardCheckedList from './CardCheckedList';
+import CardComments from './CardComments';
 
 const AddCardForm = (props) => {
   const {
