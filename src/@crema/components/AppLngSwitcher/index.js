@@ -30,6 +30,7 @@ const AppLngSwitcher = ({iconOnly, tooltipPosition}) => {
   return (
     <Box
       sx={{
+        ml:4,
         display: 'flex',
         flexDirection: 'column',
       }}
