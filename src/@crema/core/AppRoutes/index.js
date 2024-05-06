@@ -14,6 +14,7 @@ import {thirdPartyConfigs} from './ThirdPartyRoutes';
 import {appsConfig} from './AppsRoutes';
 import {accountPagesConfigs} from './AccountRoutes';
 import {invoiceConfig} from './InvoiceRoutes';
+import { musicRoutesConfig } from './MusicRoutes';
 
 export const authorizedStructure = (loginUrl) => {
   return {
@@ -21,6 +22,7 @@ export const authorizedStructure = (loginUrl) => {
     unAuthorizedComponent: <Error403 />,
     routes: [
       ...dashBoardConfigs,
+      ...musicRoutesConfig,
       ...accountPagesConfigs,
       ...appsConfig,
       ...thirdPartyConfigs,

@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background:  url('./logo.PNG') center/cover no-repeat; 
+  overflow: hidden;
+}
+
+ .div1 {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(201, 181, 181, 0.4); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  width: 20%;
+  border-radius: 8px;
+  padding: 20px; 
+}
+
+.h {
+  margin-top: 5;
+  font-size: 50px;
+  color: #000;
+}
+
+.btn1 {
+  margin-top: 20px; 
+  margin-left: 55px;
+  height: 40px;
+  width: 120px;
+  align-items: center;
+  font-size: 18px; 
+  background-color: #4ebbdd; 
+  color: #fff; 
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  color: #000; 
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px; 
+}
+
+.item input {
+  font-size: 20px;
+ 
+}
+
+input[type="text"]::placeholder{
+  text-align: center;
+}
+input[type="password"]::placeholder{
+  text-align: center;
+}
+ 
+
+.btn2 {
+  height: 100px;
+  width: 150px;
+  border-radius: 6px;
+  position: absolute;
+  left: 40%;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 18px;
+  transform: translateY(-250%);
+  background-color: white;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#upld_im {
+  height: 60px;
+  width: 70px;
+  position: absolute;
+  left: 45%;
+  margin-top: 500px;
+  text-align: center;
+  transform:translateY(-680%);
+  border-radius: 5px;
+}
+
+
+.ip{
+  display: none;
+}
+
+
+  .upld {
+    color: rgb(1, 2, 3);
+  }    
+
+.tabs{
+  background-color: white;
+  width: 1269px;
+  height: 480px;
+  transform: translateY(200px);
+  margin-left: 30px;
+  position:absolute;
+  border-radius: 10px;
+}
+
+.file-list{
+  position: relative;
+  transform: translateY(245px);
+  
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#upld_im {
+  width: 110px;
+  cursor: pointer;
+  margin-left: -20px;
+} 
+
+.tabs button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ebe3e3;
+  border: none;
+  border-radius: 5px;
+}
+
+.video-container {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+}
+
+.popup {
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 700px; 
+  height: 500px; 
+  background: #ffffff80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 25px;
+  
+}
+
+.popup-content {
+  background: rgb(229, 246, 246);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  height: 100%; 
+  box-sizing: border-box;
+  padding-left: 60px;
+  
+}
+
+#btnup{
+  transform: translate(200px,60px);
+  width: 100px;
+  height: 40px;
+}
+
+.dinp{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #0b0b16;
+  padding: 10px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+th {
+  background-color: rgb(150, 219, 240,0.5);
+}

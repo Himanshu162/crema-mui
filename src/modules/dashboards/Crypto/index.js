@@ -25,6 +25,7 @@ const Crypto = () => {
       ) : (
         <AppAnimate animation='transition.slideUpIn' delay={200}>
           <AppGridContainer>
+            
             <Grid item xs={12} md={5}>
               <TotalBalance totalBalanceData={cryptoData.totalBalanceData} />
             </Grid>

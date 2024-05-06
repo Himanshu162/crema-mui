@@ -17,11 +17,13 @@ import WelcomeCard from './WelcomeCard';
 import ActiveVisitors from './ActiveVisitors';
 import AppLoader from '@crema/components/AppLoader';
 
+
 const Analytics = () => {
   const [{apiData: analyticsData, loading}] = useGetDataApi(
     '/dashboard/analytics',
   );
-
+    
+  
   return (
     <>
       {loading ? (
